@@ -106,6 +106,7 @@
     background-image: url(../asset/image/footer-bg.png),
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
+    padding-bottom: 100px;
 }
 
 .service-right-container {
@@ -205,4 +206,58 @@
     font-size: 18px;
     color: black;
     margin-top: 10px;
+}
+
+
+/* appointment sextion styles */
+.appointment-scetion{
+    width: 75%;
+    margin:-80px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    height: 140px;
+
+}
+
+.phone-call{
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    margin-right: 10px;    
+}
+
+.phone-details{
+    color: white;    
+    padding-right: 10px;   
+}
+.vertical-row{
+    width: 2px;    
+    height: 120px;
+    border-right:1px solid black ;
+    box-shadow: 3px 0px 2px rgba(255, 255, 0, 0.533);
+           
+}
+
+.appointment-description{
+    color: white;
+    font-size: 16px;
+}
+
+.phone-detail{
+    font-size: 14px;
+}
+
+.phone-number{
+    font-size: 37px;
+}
+
+.btn-appointment{
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
