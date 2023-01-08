@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.primary {
+    color: red;
+}
+
+/* navbar section styles */
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(211, 209, 209);
+    color: white;
+    padding: 15px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    content: 'Digital';
+    color: aqua;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.list-items {
+    display: flex;
+    list-style: none;
+}
+
+.list-items li {
+    margin-right: 20px;
+    font-size: 22px;
+    color: rgba(40, 40, 40, 0.856);
+}
+
+/* header banner */
+.header-banner-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-image: url(../asset/image/background.jpg), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.banner-title {
+    font-size: 80px;
+    color: white;
+    font-weight: 700;
+}
+
+.banner-description {
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    margin: 30px auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    box-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1), 0 4px 6px -4px rgb(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.btn-second {
+    color: rgb(45, 45, 45);
+}
+
+/* service section styles */
+.service-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../asset/image/footer-bg.png),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+}
+
+.service-right-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-left-container {
+    margin-left: 70px;
+    width: 50%;
+}
+
+.btn-service {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.service-title{
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.service-description{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    width: 80%;
+}
+.service-list{
+    color: white;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.list{
+    list-style: none;
+}
+
+.author-img{
+    width: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.author-info{
+    color: white;
+    margin-left: 10px;
+   
+}
+
+.author-details{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.author-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid red;
+    padding-right: 80px;
+    height: 100px;
+}
+
+
+.service-logos {
+    display: flex;
+    text-align: center;
+    margin-right: 30px;
+
+}
+
+
+.logo {
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 40px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.service-icon {
+    width: 95px;
+    height: 95px;
+    margin-top: 30px;
+    
+
+}
+
+.icon-title{
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
